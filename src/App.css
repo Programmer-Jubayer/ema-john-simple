@@ -10,3 +10,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Header a {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
