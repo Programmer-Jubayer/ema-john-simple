@@ -28,7 +28,7 @@ const Cart = (props) => {
             <h3>Items Order {cart.length}</h3>
             <h3>Product Price: ${total.toFixed(2)}</h3>
             <p><small>Shipping Cost: ${shipping}</small></p>
-            <h3>Tax + VAT: ${tax}</h3>
+            <h3>TAX + VAT: ${tax}</h3>
             <h3>Total price: ${grandTotal}</h3>
             <br/>
             <br/>
