@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.text-field {
+    width: 400px;
+}
+.email {
+    margin-top: 20px;
+}
+.google {
+    background-color: #d9463e;
+    color: #ffffff;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.google_message {
+    margin-top: 20px;
+}
+
+.logout {
+    color: orangered;
+}
+.success {
+    color: green;
+}

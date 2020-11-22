@@ -15,9 +15,9 @@ const Shop = () => {
         const savedProduct = getDatabaseCart();
         const productKeys = Object.keys(savedProduct);
         const cartProducts = productKeys.map(existingkey => {
-            const product = fakeData.find(pd => pd.key === existingkey);
-            product.quantity = savedProduct[existingkey];
-            return product;
+        const product = fakeData.find(pd => pd.key === existingkey);
+        product.quantity = savedProduct[existingkey];
+        return product;
         });
         setCart(cartProducts);
     }, []);
